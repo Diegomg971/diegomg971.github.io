@@ -1,0 +1,108 @@
+body{
+	background-color: #333;
+	color: #c0392b;
+	font-family: 'Arial';
+}
+a{
+	color: #c0392b;
+	text-decoration: none;	
+}
+a:hover{
+	text-decoration: underline;
+}
+img{
+	width: 300px;
+}
+#slider{
+	position: relative;
+	top: 170px;
+	left: 85px;
+	width: 460px;
+}
+#slider img.slide, #slider input, #slider label{
+	display: none;
+}
+#slider label{
+	cursor: pointer;
+	position: relative;
+	top: -40px;
+}
+#slider input:checked ~ img, #slider input:checked ~ label{
+	display: inline;
+}
+#slider .flecha{
+	width: 75px;
+}
+li{
+	list-style: none;
+}
+header{
+	display: block;
+	width: 100%;
+}
+header ul li{
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+main{
+	clear: left;
+}
+
+#principal{
+	width: 600px;
+	height: 580px;
+	margin: auto;
+	padding-top: 75px;
+}
+#menu_pricipal{
+	position: relative;
+}
+#menu_pricipal li{
+	border: 2px solid #c0392b;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 100%;
+	position: absolute;
+	transition: 0.3s all;
+}
+#menu_pricipal li:hover{
+	border: 0;
+	background-color: #c0392b;
+}
+#menu_pricipal li:hover a{
+	color: #333;
+}
+#item-1{
+	top: -20px;
+	left: 50%;
+}
+#item-2{
+	top: 60px;
+	left: 85%;
+}
+#item-3{
+	top: 220px;
+	left: 100%;
+}
+#item-4{
+	top: 370px;
+	left: 85%;
+}
+#item-5{
+	top: 460px;
+	left: 50%;
+}
+#item-6{
+	top: 370px;
+	left: 15%;
+}
+#item-7{
+	top: 220px;
+	left: 0;
+}
+#item-8{
+	top: 60px;
+	left: 15%;
+}
